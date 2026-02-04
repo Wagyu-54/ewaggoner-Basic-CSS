@@ -49,3 +49,46 @@ p:nth-of-type(5) {
     padding: 10px;
     margin: 15px;
 }
+
+/* Ordered list with two-digit numbering */
+ol {
+    list-style-type: decimal-leading-zero;
+    margin-left: 40px;
+}
+
+/* List item links */
+ol a {
+    color: #1a5fd0;
+    text-decoration: underline;
+}
+
+/* W3Schools link (different color) */
+.w3-link {
+    color: red;
+    font-weight: bold;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse; /* overlapping borders */
+    margin: 15px;
+    width: 60%;
+}
+
+/* Table borders */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Table header */
+th {
+    background-color: #cccccc;
+    padding: 6px;
+    text-align: left;
+}
+
+/* Table cells */
+td {
+    background-color: #eeeeee;
+    padding: 6px;
+}
